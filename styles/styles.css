@@ -14,8 +14,14 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, O
     box-shadow: 0 0 5px black;
 }
 
+nav a {
+    color: black;
+    padding: 0px;
+    display: block;
+}
+
 main {
-    max-height: 100%;
+    max-width: 100%;
 }
 
 main img {
