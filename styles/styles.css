@@ -14,6 +14,38 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, O
     box-shadow: 0 0 5px black;
 }
 
+main {
+    max-height: 100%;
+}
+
+main img {
+    width: auto;
+    height: auto
+    border: none;
+    padding: 0px;
+    box-shadow: none;
+}
+
+aside {
+    width: 70%;
+    height: 100%;
+    position: absolute;
+    left: calc(15% - 16px);
+    padding: 0;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 48px;
+    margin: 0px;
+    box-shadow: 0 0 5px black;
+    border: none;
+    background-color: none;
+    color: black;
+}
+
+p {
+    padding: 0;
+}
+
 .main-first {
     top: 0%;
 }
@@ -39,12 +71,17 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, O
     border-radius: 6px;
 }
 
-.main-music * {
-    display: block;
-    width: 400px;
+aside img {
+    width: 200px;
+    height: auto;
 }
 
-.main-links {
+.main-music * {
+    display: block;
+    width: 200px;
+}
+
+nav {
     box-shadow: 0px 2px 3px gray;
     border-left: 1px solid gray;
     border-right: 1px solid gray;
@@ -55,9 +92,10 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, O
     z-index: 1;
     background-color: white;
     border-radius: 5px;
+    padding: 0px;
 }
 
-.main-links * {
+nav a {
     border: none;
     background: none;
     padding: 7px;
@@ -65,6 +103,8 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, O
     padding: 0px;
     height: 48px;
     width: calc(100% / 7 - 3px - 3px / 7);
+    color: none;
+
 }
 
 .main-links *:hover {
@@ -80,10 +120,17 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, O
     width: calc(69% - 5px);
 }
 
-.main-footer {
+footer {
     position: fixed;
     left: 15%;
     bottom: 8px;
     background: none;
     border: none;
+    margin-top: 0px;
+    border-top: 0px;
+    text-align: center;
+}
+
+h1 {
+    color: black;
 }
