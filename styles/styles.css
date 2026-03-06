@@ -26,7 +26,7 @@ main {
 
 main img {
     width: auto;
-    height: auto
+    height: auto;
     border: none;
     padding: 0px;
     box-shadow: none;
@@ -44,7 +44,7 @@ aside {
     margin: 0px;
     box-shadow: 0 0 5px black;
     border: none;
-    background-color: none;
+    background-color: rgba(0,0,0);
     color: black;
 }
 
@@ -109,8 +109,7 @@ nav a {
     padding: 0px;
     height: 48px;
     width: calc(100% / 7 - 3px - 3px / 7);
-    color: none;
-
+    color: black;
 }
 
 .main-links *:hover {
