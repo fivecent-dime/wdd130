@@ -7,12 +7,19 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, O
     height: 100%;
     position: absolute;
     left: calc(15% - 16px);
-    top: 0%;
-    box-shadow: 0 0 5px black;
     padding-left: 16px;
     padding-right: 16px;
     padding-top: 48px;
     margin: 0px;
+    box-shadow: 0 0 5px black;
+}
+
+.main-first {
+    top: 0%;
+}
+
+.main-second {
+    top: calc(100% + 65px);
 }
 
 .main-header {
@@ -74,7 +81,9 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, O
 }
 
 .main-footer {
-    position: absolute;
+    position: fixed;
     left: 15%;
     bottom: 8px;
+    background: none;
+    border: none;
 }
